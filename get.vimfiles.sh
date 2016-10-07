@@ -5,10 +5,10 @@
 #
 # Easy run:
 #
-#   curl https://raw.github.com/coderifous/dotfiles/master/get.vimfiles.sh | sh
+#   curl https://raw.github.com/chazchandler/dotfiles/master/get.vimfiles.sh | sh
 
 # Put your github username on the next line
-REPO_OWNER="coderifous"
+REPO_OWNER="chazchandler"
 
 # REPO_HOST will generally be "github.com", but may be changed to something else
 # if you're using a different git hosting service or if you have configured
