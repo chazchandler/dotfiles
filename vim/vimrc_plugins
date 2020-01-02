@@ -133,3 +133,6 @@ let g:TmuxTargetPane    = "1.0"
 let g:TmuxRspecOpts     = "--require ./.rspec/quickfix_formatter --format QuickfixFormatter:tmp/quickfix --require ./.rspec/progress_with_failures --format ProgressWithFailures --colour --loadby mtime --drb"
 set errorformat=%f:%l\ %n\ %m
 
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
